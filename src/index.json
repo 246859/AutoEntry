@@ -1,0 +1,800 @@
+{
+  "special": {
+    "enable": true,
+    "name": "特殊成就",
+    "details": {
+      "join": {
+        "enable": true,
+        "msg": "Hello World!",
+        "condition": "首次进入服务器"
+      }
+    },
+    "regx": {}
+  },
+  "changeDim": {
+    "enable": true,
+    "name": "维度成就",
+    "details": {
+      "0": {
+        "enable": true,
+        "msg": "真是美好的世界",
+        "condition": "到达主世界"
+      },
+      "1": {
+        "enable": true,
+        "msg": "地狱空空荡荡，魔鬼都在人间",
+        "condition": "到达地狱"
+      },
+      "2": {
+        "enable": true,
+        "msg": "永恒、无星暗夜的维度",
+        "condition": "到达末地"
+      }
+    },
+    "regx": {}
+  },
+  "destroyBlock": {
+    "enable": true,
+    "name": "挖掘成就",
+    "details": {
+      "minecraft:log": {
+        "enable": true,
+        "msg": "要致富，先撸树!",
+        "condition": "首次砍掉原木"
+      },
+      "minecraft:stone": {
+        "enable": true,
+        "msg": "疯狂的石头!",
+        "condition": "首次挖掘石头"
+      },
+      "minecraft:coal_ore": {
+        "enable": true,
+        "msg": "满面尘灰烟火色，两鬓苍苍十指黑",
+        "condition": "首次挖掘煤矿"
+      },
+      "minecraft:iron_ore": {
+        "enable": true,
+        "msg": "来点硬的!",
+        "condition": "首次挖掘铁矿"
+      },
+      "minecraft:gold_ore": {
+        "enable": true,
+        "msg": "黄金矿工,黄金精神！",
+        "condition": "首次挖掘金矿"
+      },
+      "minecraft:diamond_ore": {
+        "enable": true,
+        "msg": "谁不喜欢钻石呢?",
+        "condition": "首次挖掘金矿"
+      },
+      "minecraft:ancient_debris": {
+        "enable": true,
+        "msg": "远古的残骸",
+        "condition": "首次挖掘远古残骸"
+      },
+      "minecraft:lapis_ore": {
+        "enable": true,
+        "msg": "附魔时间到！",
+        "condition": "首次挖掘青金石矿"
+      },
+      "minecraft:redstone_ore": {
+        "enable": true,
+        "msg": "服务器感到了一丝危机",
+        "condition": "首次挖掘红石矿"
+      },
+      "minecraft:copper_ore": {
+        "enable": true,
+        "msg": "这个东西有什么用呢？",
+        "condition": "首次挖掘铜矿"
+      },
+      "minecraft:emerald_ore": {
+        "enable": true,
+        "msg": "村民捕获器",
+        "condition": "首次挖掘绿宝石矿"
+      },
+      "minecraft:end_stone": {
+        "enable": true,
+        "msg": "虚无的方块",
+        "condition": "首次挖掘地狱岩"
+      },
+      "minecraft:netherrack": {
+        "enable": true,
+        "msg": "布满腐败血肉的肮脏物体",
+        "condition": "首次挖掘地狱岩"
+      },
+      "minecraft:glass": {
+        "enable": true,
+        "msg": "美好的事物就是用来破坏的",
+        "condition": "首次破坏玻璃"
+      },
+      "minecraft:stained_glass": {
+        "enable": true,
+        "msg": "即便染了色，美好的事物也还是用来破坏的",
+        "condition": "首次破坏染色玻璃"
+      },
+      "minecraft:obsidian": {
+        "enable": true,
+        "msg": "黑曜石之歌",
+        "condition": "首次挖掘黑曜石"
+      },
+      "minecraft:bedrock": {
+        "enable": true,
+        "msg": "你这家伙作弊了是吧",
+        "condition": "首次破坏基岩"
+      },
+      "minecraft:grass": {
+        "enable": true,
+        "msg": "草!(一种植物)",
+        "condition": "首次挖掘草方块"
+      },
+      "minecraft:bee_nest": {
+        "enable": true,
+        "msg": "嗡嗡嗡~ 麻烦来了",
+        "condition": "首次破坏蜂巢"
+      },
+      "minecraft:amethyst_block": {
+        "enable": true,
+        "msg": "美丽迷人的紫水晶",
+        "condition": "首次破坏紫水晶母岩"
+      },
+      "minecraft:leaves": {
+        "enable": true,
+        "msg": "某瑞典人：How dare you !",
+        "condition": "首次剪掉树叶"
+      }
+    },
+    "regx": {
+      "minecraft:log": "minecraft:log"
+    }
+  },
+  "killer": {
+    "enable": true,
+    "name": "击杀成就",
+    "details": {
+      "minecraft:creeper": {
+        "enable": true,
+        "msg": "嘶~嘶~",
+        "condition": "首次击杀苦力怕"
+      },
+      "minecraft:zombie": {
+        "enable": true,
+        "msg": "僵尸围城",
+        "condition": "首次击杀僵尸"
+      },
+      "minecraft:skeleton": {
+        "enable": true,
+        "msg": "东风快递,使命必达",
+        "condition": "首次击杀小白"
+      },
+      "minecraft:stray": {
+        "enable": true,
+        "msg": "就你喜欢放风筝是吧",
+        "condition": "首次击杀流浪者"
+      },
+      "minecraft:zombie_pigman": {
+        "enable": true,
+        "msg": "是猪？还是僵尸？",
+        "condition": "首次击杀僵尸猪人"
+      },
+      "minecraft:drowned": {
+        "enable": true,
+        "msg": "刷三叉戟的工具人",
+        "condition": "首次击杀溺尸"
+      },
+      "minecraft:elder_guardian": {
+        "enable": true,
+        "msg": "疲于奔命",
+        "condition": "首次击杀远古守卫者"
+      },
+      "minecraft:ghast": {
+        "enable": true,
+        "msg": "恶魔的眼泪",
+        "condition": "首次击杀恶魂"
+      },
+      "minecraft:slime": {
+        "enable": true,
+        "msg": "黏黏糊糊",
+        "condition": "首次击杀史莱姆"
+      },
+      "minecraft:magma_cube": {
+        "enable": true,
+        "msg": "走动的岩浆",
+        "condition": "首次击杀岩浆怪"
+      },
+      "minecraft:shulker": {
+        "enable": true,
+        "msg": "小东西，大智慧",
+        "condition": "首次击杀潜影贝"
+      },
+      "minecraft:witch": {
+        "enable": true,
+        "msg": "邪恶的女巫",
+        "condition": "首次击杀女巫"
+      },
+      "minecraft:wither_skeleton": {
+        "enable": true,
+        "msg": "更棘手了、更吓人了、更凋零了",
+        "condition": "首次击杀凋零骷髅"
+      },
+      "minecraft:vex": {
+        "enable": true,
+        "msg": "令人讨厌的天使或者魔鬼",
+        "condition": "首次击杀恼鬼"
+      },
+      "minecraft:phantom": {
+        "enable": true,
+        "msg": "不睡觉，坏宝宝",
+        "condition": "首次击杀幻翼"
+      },
+      "minecraft:zombie_villager": {
+        "enable": true,
+        "msg": "生化危机",
+        "condition": "首次击杀僵尸村民"
+      },
+      "minecraft:silverfish": {
+        "enable": true,
+        "msg": "恶心的小家伙",
+        "condition": "首次击杀囊虫"
+      },
+      "minecraft:pillager": {
+        "enable": true,
+        "msg": "和平的破坏者",
+        "condition": "首次击杀暴民"
+      },
+      "minecraft:ravager": {
+        "enable": true,
+        "msg": "一头发飙的母牛",
+        "condition": "首次击杀劫掠兽"
+      },
+      "minecraft:spider": {
+        "enable": true,
+        "msg": "爬墙、爬树、爬建筑物",
+        "condition": "首次击杀蜘蛛"
+      },
+      "minecraft:cave_spider": {
+        "enable": true,
+        "msg": "小心剧毒",
+        "condition": "首次击杀洞穴蜘蛛"
+      },
+      "minecraft:enderman": {
+        "enable": true,
+        "msg": "瞅你咋地",
+        "condition": "首次击杀末影人"
+      },
+      "minecraft:piglin": {
+        "enable": true,
+        "msg": "地狱的商人",
+        "condition": "首次击杀猪灵"
+      },
+      "minecraft:endermite": {
+        "enable": true,
+        "msg": "小黑的最爱",
+        "condition": "首次击杀末影螨"
+      },
+      "minecraft:ender_dragon": {
+        "enable": true,
+        "msg": "末影龙?不是吧,就这?",
+        "condition": "首次击杀末影龙"
+      },
+      "minecraft:wither": {
+        "enable": true,
+        "msg": "凋零？不是吧，就这？",
+        "condition": "首次击杀凋零"
+      },
+      "minecraft:player": {
+        "enable": true,
+        "msg": "你谋杀了一个玩家!",
+        "condition": "首次击杀玩家"
+      },
+      "minecraft:dolphin": {
+        "enable": true,
+        "msg": "精神变态",
+        "condition": "首次击杀海豚"
+      },
+      "minecraft:panda": {
+        "enable": true,
+        "msg": "非法捕猎",
+        "condition": "首次击杀熊猫"
+      },
+      "minecraft:chicken": {
+        "enable": true,
+        "msg": "数一数二的烧鸡",
+        "condition": "首次击杀鸡"
+      },
+      "minecraft:sheep": {
+        "enable": true,
+        "msg": "谁会杀害温顺又可爱的绵羊呢？",
+        "condition": "首次击杀羊"
+      },
+      "minecraft:goat": {
+        "enable": true,
+        "msg": "山羊冲撞",
+        "condition": "首次击杀山羊"
+      },
+      "minecraft:pig": {
+        "enable": true,
+        "msg": "挺像你的",
+        "condition": "首次击杀猪"
+      },
+      "minecraft:cow": {
+        "enable": true,
+        "msg": "勇敢牛牛，不怕困难",
+        "condition": "首次击杀牛"
+      },
+      "minecraft:villager_v2": {
+        "enable": true,
+        "msg": "死不足惜",
+        "condition": "首次击杀村民"
+      }
+    },
+    "regx": {}
+  },
+  "death": {
+    "enable": true,
+    "name": "死亡成就",
+    "details": {
+      "minecraft:creeper": {
+        "enable": true,
+        "msg": "突如其来的惊喜!",
+        "condition": "死于苦力怕"
+      },
+      "minecraft:zombie": {
+        "enable": true,
+        "msg": "倒在了尸潮中",
+        "condition": "死于僵尸"
+      },
+      "minecraft:skeleton": {
+        "enable": true,
+        "msg": "中门对狙",
+        "condition": "死于小白"
+      },
+      "minecraft:stray": {
+        "enable": true,
+        "msg": "烦人的减速！",
+        "condition": "死于流浪者"
+      },
+      "minecraft:zombie_pigman": {
+        "enable": true,
+        "msg": "何必呢？",
+        "condition": "死于僵尸猪人"
+      },
+      "minecraft:drowned": {
+        "enable": true,
+        "msg": "潜伏水下的暗影",
+        "condition": "死于溺尸"
+      },
+      "minecraft:elder_guardian": {
+        "enable": true,
+        "msg": "深海巨兽",
+        "condition": "死于远古守卫"
+      },
+      "minecraft:ghast": {
+        "enable": true,
+        "msg": "鬼泣",
+        "condition": "死于恶魂"
+      },
+      "minecraft:slime": {
+        "enable": true,
+        "msg": "史莱姆从天而降",
+        "condition": "死于史莱姆"
+      },
+      "minecraft:magma_cube": {
+        "enable": true,
+        "msg": "可怕的岩浆怪",
+        "condition": "死于岩浆怪"
+      },
+      "minecraft:guardian": {
+        "enable": true,
+        "msg": "小跟班",
+        "condition": "死于守卫者"
+      },
+      "minecraft:shulker": {
+        "enable": true,
+        "msg": "大聪明！",
+        "condition": "死于潜影贝"
+      },
+      "minecraft:witch": {
+        "enable": true,
+        "msg": "不要小看她",
+        "condition": "死于女巫"
+      },
+      "minecraft:wither_skeleton": {
+        "enable": true,
+        "msg": "地狱的骑士",
+        "condition": "死于凋零骷髅"
+      },
+      "minecraft:vex": {
+        "enable": true,
+        "msg": "天使下凡",
+        "condition": "死于恼鬼"
+      },
+      "minecraft:phantom": {
+        "enable": true,
+        "msg": "安祥的美梦",
+        "condition": "死于幻翼"
+      },
+      "minecraft:zombie_villager": {
+        "enable": true,
+        "msg": "加入我们的美好大家庭",
+        "condition": "死于僵尸村民"
+      },
+      "minecraft:silverfish": {
+        "enable": true,
+        "msg": "葬身地底",
+        "condition": "死于囊虫"
+      },
+      "minecraft:pillager": {
+        "enable": true,
+        "msg": "疯狂的掠夺",
+        "condition": "死于暴民"
+      },
+      "minecraft:ravager": {
+        "enable": true,
+        "msg": "死于冲撞",
+        "condition": "死于劫掠兽"
+      },
+      "minecraft:spider": {
+        "enable": true,
+        "msg": "抱脸虫",
+        "condition": "死于蜘蛛"
+      },
+      "minecraft:cave_spider": {
+        "enable": true,
+        "msg": "剧毒抱脸虫",
+        "condition": "死于洞穴蜘蛛"
+      },
+      "minecraft:enderman": {
+        "enable": true,
+        "msg": "敢瞅我？",
+        "condition": "死于末影人"
+      },
+      "minecraft:piglin": {
+        "enable": true,
+        "msg": "忘带钱了",
+        "condition": "死于猪灵"
+      },
+      "minecraft:endermite": {
+        "enable": true,
+        "msg": "小家伙",
+        "condition": "死于末影螨"
+      },
+      "minecraft:ender_dragon": {
+        "enable": true,
+        "msg": "不是吧，就这？",
+        "condition": "死于末影龙"
+      },
+      "minecraft:wither": {
+        "enable": true,
+        "msg": "不是吧，就这？",
+        "condition": "死于凋零"
+      },
+      "minecraft:player": {
+        "enable": true,
+        "msg": "死于谋杀",
+        "condition": "死于玩家"
+      },
+      "minecraft:dolphin": {
+        "enable": true,
+        "msg": "因果报应",
+        "condition": "死于海豚"
+      },
+      "minecraft:panda": {
+        "enable": true,
+        "msg": "功夫熊猫",
+        "condition": "死于熊猫"
+      }
+    },
+    "regx": {}
+  },
+  "ScoreMoney": {
+    "enable": true,
+    "name": "经济成就",
+    "details": {
+      "${}<=0": {
+        "enable": true,
+        "msg": "大负翁",
+        "condition": "经济小于等于0"
+      },
+      "${}>=1000": {
+        "enable": true,
+        "msg": "低保生活",
+        "condition": "经济大于等于1k"
+      },
+      "${}>=10000": {
+        "enable": true,
+        "msg": "卑微社畜",
+        "condition": "经济大于等于1w"
+      },
+      "${}>=100000": {
+        "enable": true,
+        "msg": "小康生活",
+        "condition": "经济大于等于10w"
+      },
+      "${}>=1000000": {
+        "enable": true,
+        "msg": "百万富翁",
+        "condition": "经济大于等于100w"
+      },
+      "${}>=10000000": {
+        "enable": true,
+        "msg": "千万富翁",
+        "condition": "经济大于等于1000w"
+      },
+      "${}>=100000000": {
+        "enable": true,
+        "msg": "亿万富翁",
+        "condition": "经济大于等于10000w"
+      }
+    },
+    "regx": {}
+  },
+  "itemObtain": {
+    "enable": true,
+    "name": "物品成就",
+    "details": {
+      "minecraft:furnace": {
+        "enable": true,
+        "msg": "聊的火热!",
+        "condition": "首次获得熔炉"
+      },
+      "minecraft:crafting_table": {
+        "enable": true,
+        "msg": "工作时间到！",
+        "condition": "首次获得工作台"
+      },
+      "minecraft:torch": {
+        "enable": true,
+        "msg": "照亮前进的道路!",
+        "condition": "首次获得火把"
+      },
+      "minecraft:campfire": {
+        "enable": true,
+        "msg": "篝火晚会时间到！",
+        "condition": "首次获得篝火"
+      },
+      "minecraft:bread": {
+        "enable": true,
+        "msg": "你还记得至今为止吃了多少片面包吗?",
+        "condition": "首次获得面包"
+      },
+      "minecraft:cake": {
+        "enable": true,
+        "msg": "蛋糕是个谎言",
+        "condition": "首次获得蛋糕"
+      },
+      "minecraft:wooden_sword": {
+        "enable": true,
+        "msg": "击剑时间到！",
+        "condition": "首次获得木剑"
+      },
+      "minecraft:stone_sword": {
+        "enable": true,
+        "msg": "石矛与兽皮",
+        "condition": "首次获得石剑"
+      },
+      "minecraft:iron_sword": {
+        "enable": true,
+        "msg": "锻造与淬火",
+        "condition": "首次获得铁剑"
+      },
+      "minecraft:diamond_sword": {
+        "enable": true,
+        "msg": "更上一层",
+        "condition": "首次获得钻石剑"
+      },
+      "minecraft:netherite_sword": {
+        "enable": true,
+        "msg": "所有的恐惧都来自火力不足",
+        "condition": "首次获得合金剑"
+      },
+      "minecraft:apple": {
+        "enable": true,
+        "msg": "被咬了一口的苹果",
+        "condition": "首次获得苹果"
+      },
+      "minecraft:wooden_pickaxe": {
+        "enable": true,
+        "msg": "小小矿工,前来报道",
+        "condition": "首次获得木镐"
+      },
+      "minecraft:stone_pickaxe": {
+        "enable": true,
+        "msg": "采矿时间到",
+        "condition": "首次获得石镐"
+      },
+      "minecraft:iron_pickaxe": {
+        "enable": true,
+        "msg": "高级矿工",
+        "condition": "首次获得铁镐"
+      },
+      "minecraft:golden_pickaxe": {
+        "enable": true,
+        "msg": "黄金矿工",
+        "condition": "首次获得金镐"
+      },
+      "minecraft:diamond_pickaxe": {
+        "enable": true,
+        "msg": "渐入佳境",
+        "condition": "首次获得钻镐"
+      },
+      "minecraft:netherite_pickaxe": {
+        "enable": true,
+        "msg": "无坚不摧",
+        "condition": "首次获得合金镐"
+      },
+      "minecraft:wooden_hoe": {
+        "enable": true,
+        "msg": "锄禾日当午，汗滴禾下土",
+        "condition": "首次获得木锄"
+      },
+      "minecraft:golden_hoe": {
+        "enable": true,
+        "msg": "等我当上皇帝了一定要用金锄头锄地",
+        "condition": "首次获得金锄"
+      },
+      "minecraft:golden_shovel": {
+        "enable": true,
+        "msg": "金铲铲之战",
+        "condition": "首次获得金铲"
+      },
+      "minecraft:wooden_axe": {
+        "enable": true,
+        "msg": "小木斧，可惜不是创世神",
+        "condition": "首次获得木斧"
+      },
+      "minecraft:iron_axe": {
+        "enable": true,
+        "msg": "狂战士",
+        "condition": "首次获得铁斧"
+      },
+      "minecraft:netherite_axe": {
+        "enable": true,
+        "msg": "开天辟地",
+        "condition": "首次获得合金斧"
+      },
+      "minecraft:bow": {
+        "enable": true,
+        "msg": "弓箭入门",
+        "condition": "首次获得弓箭"
+      },
+      "minecraft:shield": {
+        "enable": true,
+        "msg": "躲在后面",
+        "condition": "首次获得盾牌"
+      },
+      "minecraft:golden_apple": {
+        "enable": true,
+        "msg": "君临天下",
+        "condition": "首次获得金苹果"
+      },
+      "minecraft:enchanted_golden_apple": {
+        "enable": true,
+        "msg": "无敌是多么寂寞",
+        "condition": "首次获得附魔金苹果"
+      },
+      "minecraft:clock": {
+        "enable": true,
+        "msg": "进服送终",
+        "condition": "首次获得时钟"
+      },
+      "minecraft:fishing_rod": {
+        "enable": true,
+        "msg": "孤舟蓑笠翁,独钓寒江雪",
+        "condition": "首次获得钓鱼竿"
+      },
+      "minecraft:map": {
+        "enable": true,
+        "msg": "缺德地图,竭诚为您导航",
+        "condition": "首次获得地图"
+      }
+    },
+    "regx": {}
+  },
+  "eat": {
+    "name": "食物成就",
+    "details": {}
+  },
+  "armor": {
+    "name": "装备成就",
+    "details": {}
+  },
+  "sleep": {
+    "enable": true,
+    "name": "睡眠成就",
+    "details": {
+      "cloudDream": {
+        "enable": true,
+        "msg": "云端之梦",
+        "condition": "在云层之上睡一晚上"
+      },
+      "undergroundDream": {
+        "enable": true,
+        "msg": "深渊之息",
+        "condition": "在洞穴层睡一晚上"
+      },
+      "normalDream": {
+        "enable": true,
+        "msg": "精神饱满",
+        "condition": "安全的睡一晚上"
+      },
+      "rainDream": {
+        "enable": true,
+        "msg": "屋漏偏逢连夜雨",
+        "condition": "在雨中睡一晚上"
+      }
+    },
+    "regx": {}
+  },
+  "ride": {
+    "name": "骑乘成就",
+    "details": {}
+  },
+  "shootDistance": {
+    "enable": true,
+    "name": "射击成就",
+    "details": {
+      "20": {
+        "enable": true,
+        "msg": "十米开外",
+        "condition": "用箭命中距离20以外的生物"
+      },
+      "40": {
+        "enable": true,
+        "msg": "箭无虚发",
+        "condition": "用箭命中距离40以外的生物"
+      },
+      "60": {
+        "enable": true,
+        "msg": "神射手",
+        "condition": "用箭命中距离60以外的生物"
+      },
+      "80": {
+        "enable": true,
+        "msg": "百步穿杨",
+        "condition": "用箭命中距离80以外的生物"
+      },
+      "100": {
+        "enable": true,
+        "msg": "精准制导",
+        "condition": "用箭命中距离100以外的生物"
+      }
+    },
+    "regx": {}
+  },
+  "chat": {
+    "name": "聊天成就",
+    "details": {}
+  },
+  "achiCount": {
+    "enable": true,
+    "name": "进度成就",
+    "details": {
+      "10": {
+        "enable": true,
+        "msg": "小有名气",
+        "condition": "达成10个成就"
+      },
+      "50": {
+        "enable": true,
+        "msg": "轻车熟路",
+        "condition": "达成50个成就"
+      },
+      "80": {
+        "enable": true,
+        "msg": "游戏人生",
+        "condition": "达成80个成就"
+      },
+      "100": {
+        "enable": true,
+        "msg": "忠实粉丝",
+        "condition": "达成100个成就"
+      },
+      "150": {
+        "enable": true,
+        "msg": "骨灰玩家",
+        "condition": "达成150个成就"
+      }
+    },
+    "regx": {}
+  }
+}
