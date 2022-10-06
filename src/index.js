@@ -41,7 +41,7 @@ fs.readFile('./index.json','utf8',(err,data)=>{
             const mdFileContent = template.render(data,content);
             const path = `./markdown/${typeKey}.md`;
             fs.writeFileSync(path,mdFileContent,'utf8');
-            console.log(`路径:${path},文件生成成功,`)
+            console.log(`路径:${path},文件生成成功,`);
         }
-    })
-})
+    });
+});
