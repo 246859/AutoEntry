@@ -16,10 +16,10 @@
 {{each entryArr}}
 ## {{$value.msg}}
 
-- 触发值：`{{$value.key}}`
-- 词条：`{{$value.msg}}`
-- 条件：`{{$value.condition}}`
-- 默认开启：`{{$value.enable}}`
+- 触发值：`{{@$value.key}}`
+- 词条：`{{@$value.msg}}`
+- 条件：`{{@$value.condition}}`
+- 默认开启：`{{@$value.enable}}`
 - json：
 
 ```json

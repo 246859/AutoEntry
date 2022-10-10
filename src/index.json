@@ -7,9 +7,36 @@
         "enable": true,
         "msg": "Hello World!",
         "condition": "首次进入服务器"
+      },
+      "counterattack": {
+        "enable": true,
+        "msg": "自食其果",
+        "condition": "将恶魂的火球反弹击杀恶魂"
+      },
+      "littleHurt": {
+        "enable": true,
+        "msg": "有一点点疼",
+        "condition": "单次攻击造成15点伤害"
+      },
+      "yidao999": {
+        "enable": true,
+        "msg": "是兄弟就来砍我，血战攻沙，一刀999",
+        "condition": "单次攻击造成999点伤害"
+      },
+      "useTotem": {
+        "enable": true,
+        "msg": "大难不死，必有后福",
+        "condition": "在濒临死亡时使用图腾"
+      },
+      "lava": {
+        "enable": true,
+        "msg": "喝点暖暖身子",
+        "condition": "舀一桶岩浆"
       }
     },
-    "regx": {}
+    "regx": {
+      "lava": "lava"
+    }
   },
   "changeDim": {
     "enable": true,
@@ -18,7 +45,7 @@
       "0": {
         "enable": true,
         "msg": "真是美好的世界",
-        "condition": "到达主世界"
+        "condition": "返回主世界"
       },
       "1": {
         "enable": true,
@@ -95,7 +122,7 @@
       "minecraft:end_stone": {
         "enable": true,
         "msg": "虚无的方块",
-        "condition": "首次挖掘地狱岩"
+        "condition": "首次挖掘末地岩"
       },
       "minecraft:netherrack": {
         "enable": true,
@@ -145,6 +172,50 @@
     },
     "regx": {
       "minecraft:log": "minecraft:log"
+    }
+  },
+  "place": {
+    "enable": true,
+    "name": "放置成就",
+    "details": {
+      "minecraft:flower_pot": {
+        "enable": true,
+        "msg": "准备园艺",
+        "condition": "放置一个花盆"
+      },
+      "minecraft:sapling": {
+        "enable": true,
+        "msg": "环保工作",
+        "condition": "种一颗树苗"
+      },
+      "minecraft:sign": {
+        "enable": true,
+        "msg": "告诉大家伙!",
+        "condition": "放置一个告示牌"
+      },
+      "minecraft:bell": {
+        "enable": true,
+        "msg": "咚咚咚",
+        "condition": "放置一个钟"
+      },
+      "minecraft:tnt": {
+        "enable": true,
+        "msg": "准备干点坏事",
+        "condition": "放置TNT"
+      },
+      "minecraft:beacon": {
+        "enable": true,
+        "msg": "老远就能看见了",
+        "condition": "放置一个信标"
+      },
+      "minecraft:brewing_stand": {
+        "enable": true,
+        "msg": "炼金时间到",
+        "condition": "放置一个炼药台"
+      }
+    },
+    "regx": {
+      "_sign": "minecraft:sign"
     }
   },
   "killer": {
@@ -298,13 +369,13 @@
       },
       "minecraft:chicken": {
         "enable": true,
-        "msg": "数一数二的烧鸡",
-        "condition": "首次击杀鸡"
+        "msg": "你干嘛啊~哎呦~",
+        "condition": "首次击杀只因"
       },
       "minecraft:sheep": {
         "enable": true,
         "msg": "谁会杀害温顺又可爱的绵羊呢？",
-        "condition": "首次击杀羊"
+        "condition": "首次击杀绵阳"
       },
       "minecraft:goat": {
         "enable": true,
@@ -460,12 +531,12 @@
       },
       "minecraft:ender_dragon": {
         "enable": true,
-        "msg": "不是吧，就这？",
+        "msg": "末影龙:不是吧，就这？",
         "condition": "死于末影龙"
       },
       "minecraft:wither": {
         "enable": true,
-        "msg": "不是吧，就这？",
+        "msg": "凋零:不是吧，就这？",
         "condition": "死于凋零"
       },
       "minecraft:player": {
@@ -493,37 +564,37 @@
       "${}<=0": {
         "enable": true,
         "msg": "大负翁",
-        "condition": "经济小于等于0"
+        "condition": "经济达到0"
       },
       "${}>=1000": {
         "enable": true,
         "msg": "低保生活",
-        "condition": "经济大于等于1k"
+        "condition": "经济达到1k"
       },
       "${}>=10000": {
         "enable": true,
         "msg": "卑微社畜",
-        "condition": "经济大于等于1w"
+        "condition": "经济达到1w"
       },
       "${}>=100000": {
         "enable": true,
         "msg": "小康生活",
-        "condition": "经济大于等于10w"
+        "condition": "经济达到10w"
       },
       "${}>=1000000": {
         "enable": true,
         "msg": "百万富翁",
-        "condition": "经济大于等于100w"
+        "condition": "经济达到100w"
       },
       "${}>=10000000": {
         "enable": true,
         "msg": "千万富翁",
-        "condition": "经济大于等于1000w"
+        "condition": "经济达到1000w"
       },
       "${}>=100000000": {
         "enable": true,
         "msg": "亿万富翁",
-        "condition": "经济大于等于10000w"
+        "condition": "经济达到10000w"
       }
     },
     "regx": {}
@@ -691,12 +762,61 @@
     "regx": {}
   },
   "eat": {
+    "enable": true,
     "name": "食物成就",
-    "details": {}
+    "details": {
+      "minecraft:pufferfish": {
+        "enable": true,
+        "msg": "酸爽!",
+        "condition": "吃掉一个河豚"
+      },
+      "minecraft:cookie": {
+        "enable": true,
+        "msg": "是否接受该网站所有cookie设置",
+        "condition": "吃掉一个饼干"
+      },
+      "minecraft:dried_kelp": {
+        "enable": true,
+        "msg": "海的味道，我知道",
+        "condition": "吃掉一个波力海苔"
+      },
+      "minecraft:rotten_flesh": {
+        "enable": true,
+        "msg": "勉强充饥",
+        "condition": "吃掉一个僵尸腐肉"
+      },
+      "minecraft:apple": {
+        "enable": true,
+        "msg": "每天一苹果，医生远离我",
+        "condition": "吃掉一个苹果"
+      },
+      "minecraft:cooked_chicken": {
+        "enable": true,
+        "msg": "数一数二的烧鸡!",
+        "condition": "吃掉一个烧鸡"
+      }
+    }
   },
   "armor": {
+    "enable": true,
     "name": "装备成就",
-    "details": {}
+    "details": {
+      "setAll": {
+        "enable": true,
+        "msg": "全副武装",
+        "condition": "装备一套任意盔甲"
+      },
+      "preFly": {
+        "enable": true,
+        "msg": "芜湖起飞!",
+        "condition": "装备鞘翅"
+      },
+      "netheriteAll": {
+        "enable": true,
+        "msg": "武装到牙齿",
+        "condition": "装备一套合金盔甲"
+      }
+    }
   },
   "sleep": {
     "enable": true,
@@ -721,39 +841,40 @@
         "enable": true,
         "msg": "屋漏偏逢连夜雨",
         "condition": "在雨中睡一晚上"
+      },
+      "snowDream": {
+        "enable": true,
+        "msg": "冰雪之梦",
+        "condition": "在雪中睡一晚上"
       }
     },
     "regx": {}
-  },
-  "ride": {
-    "name": "骑乘成就",
-    "details": {}
   },
   "shootDistance": {
     "enable": true,
     "name": "射击成就",
     "details": {
-      "20": {
+      "${}>=20": {
         "enable": true,
         "msg": "十米开外",
         "condition": "用箭命中距离20以外的生物"
       },
-      "40": {
+      "${}>=40": {
         "enable": true,
         "msg": "箭无虚发",
         "condition": "用箭命中距离40以外的生物"
       },
-      "60": {
+      "${}>=60": {
         "enable": true,
         "msg": "神射手",
         "condition": "用箭命中距离60以外的生物"
       },
-      "80": {
+      "${}>=80": {
         "enable": true,
         "msg": "百步穿杨",
         "condition": "用箭命中距离80以外的生物"
       },
-      "100": {
+      "${}>=100": {
         "enable": true,
         "msg": "精准制导",
         "condition": "用箭命中距离100以外的生物"
@@ -767,29 +888,29 @@
   },
   "achiCount": {
     "enable": true,
-    "name": "进度成就",
+    "name": "成就数量成就",
     "details": {
-      "10": {
+      "${}>=10": {
         "enable": true,
         "msg": "小有名气",
         "condition": "达成10个成就"
       },
-      "50": {
+      "${}>=50": {
         "enable": true,
         "msg": "轻车熟路",
         "condition": "达成50个成就"
       },
-      "80": {
+      "${}>=80": {
         "enable": true,
         "msg": "游戏人生",
         "condition": "达成80个成就"
       },
-      "100": {
+      "${}>=100": {
         "enable": true,
         "msg": "忠实粉丝",
         "condition": "达成100个成就"
       },
-      "150": {
+      "${}>=150": {
         "enable": true,
         "msg": "骨灰玩家",
         "condition": "达成150个成就"
