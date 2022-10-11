@@ -5,6 +5,7 @@
 - **名称**：`{{type.name}}`
 - **类型名**：`{{type.key}}`
 - **默认开启**：`{{type.enable}}`
+- **词条数量**：`{{type.count}}`
 - **json**：
 
 ```json

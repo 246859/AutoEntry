@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0f33696-9df7-4bf1-b55e-4f8639382b0e" name="Changes" comment="增加交互式生成功能">
+    <list default="true" id="c0f33696-9df7-4bf1-b55e-4f8639382b0e" name="Changes" comment="index.md模板修改为不进行html转义">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,8 @@
       <workItem from="1665028095648" duration="1152000" />
       <workItem from="1665030527850" duration="3086000" />
       <workItem from="1665045108947" duration="1681000" />
-      <workItem from="1665398137164" duration="365000" />
+      <workItem from="1665398137164" duration="1407000" />
+      <workItem from="1665460650217" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="基本生成功能已完成">
       <created>1665028137510</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665033679633</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="index.md模板修改为不进行html转义">
+      <created>1665398777945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665398777945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本生成功能已完成" />
     <MESSAGE value="增加交互式生成功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加交互式生成功能" />
+    <MESSAGE value="index.md模板修改为不进行html转义" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.md模板修改为不进行html转义" />
   </component>
 </project>
